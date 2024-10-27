@@ -1,0 +1,105 @@
+body.light-theme {
+  background-color: #b8fcf0;
+  color: #000000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-theme {
+  background-color: #111111;
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Стили для заголовка */
+.header {
+  display: flex;                 
+  justify-content: space-between; 
+  align-items: center;          
+  padding: 200px;                
+  width: 100%;                  
+  padding-top: 0px;
+  margin-bottom: 250px;
+}
+
+.icon {
+  width: 80px;                   
+  height: auto;
+}
+
+.header h1 {
+  margin: 0;                    
+}
+
+.theme-toggle {
+  padding: 10px 20px;           
+  cursor: pointer;               
+  font-size: 16px;              
+  border: none;                 
+  border-radius: 5px;           
+}
+
+/* Общие стили для приложения */
+.App {
+  display: flex;
+  flex-direction: column;          
+  justify-content: center;         
+  align-items: center;             
+  flex-grow: 1;                    
+  text-align: center;              
+}
+
+/* Стили для заголовка */
+.header {
+  display: flex;                   
+  justify-content: space-between;  
+  align-items: center;             
+  padding: 0px;                   
+  width: 100%;                     
+}
+
+.header h1 {
+  margin: 0;                       
+}
+
+.theme-toggle {
+  padding: 10px 20px;              
+  cursor: pointer;                  
+  font-size: 16px;                 
+  border: none;                    
+  border-radius: 5px;              
+}
+
+/* Стили для секции приветствия */
+.welcome {
+  display: flex;                   
+  flex-direction: row;            
+  align-items: center;            
+  padding: 20px;
+  justify-content: center;         
+}
+
+
+/* Стили для текста */
+.welcome_text {
+  margin-right: 10px;             
+  font-size: 30px;
+}
+
+/* Стили для изображения */
+.enlarged-image {
+  width: 340px;                   
+  height: auto;                   
+}
+
+.select-region-button {
+  padding: 10px 20px;              
+  cursor: pointer;                  
+  font-size: 16px;                 
+  border: none;                    
+  border-radius: 5px;              
+  margin-top: 20px;                
+}
+
+.select-region-button:hover {
+  background-color: #0944c4;       
+}
